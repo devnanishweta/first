@@ -1,14 +1,27 @@
 body,
-html{
-	width:100%;
-	height: 100%
-	font-family:'Montserrat',sans-serif;
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(0, 0, 0, 0.5);
+    background: url(images.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
 
-	background: url(images.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100%;
+}
+
+h1 {
+    padding-top: 100px;
 }
 
 hr {
@@ -16,28 +29,27 @@ hr {
     color: #F05F44;
     border: 2px solid #F05F44;
     max-width: 65px;
-    opacity: 1;  
-    border_radius:1.5px;
-
+    opacity: 1;
+    border-radius: 1.5px;
 }
 
-.btn{
-	font-weight: 700;
-	font-radius:300px;
-	text-transfrom:uppercase;
-
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
 }
 
-.btn-primary {	
-    background-color: #F05F44;	
-    border-color: #F05F44;	
-    --bs-btn-hover-bg: #ee4b08;	
+.btn-primary {
+    background-color: #F05F44;
+    border-color: #F05F44;
+    --bs-btn-hover-bg: #ee4b08;
     --bs-btn-hover-border-color: #ee4b08;
 }
 
-.btn-xl{
-	padding:1rem 2rem:;
+.btn-xl {
+    padding: 1rem 2rem;
 }
-.buffer{
-	height:5rem;
+
+.buffer {
+    height: 5rem;
 }
